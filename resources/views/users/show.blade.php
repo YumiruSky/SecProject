@@ -8,6 +8,9 @@
         <section class="user_info">
           @include('shared._user_info', ['user' => $user])
         </section>
+        <section class="stats">
+          @include('shared._stats', ['user' => $user])
+        </section>
       </div>
     </div>
     <div class="col-md-12">
